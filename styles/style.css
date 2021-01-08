@@ -58,20 +58,28 @@ input{
     width: 50px;
     align-content: center;
     justify-content: center;
-    margin-left: 20px;
-    
+    margin-left: 25px;
+    background: var(--color2);
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem
 }
 
 button{
+    width: 100px;
+    height: 50px;
+    align-content: center;
+    justify-content: center;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-family: 'Permanent Marker', cursive;
+    color: var(--color1);
+    font-size: 1.5rem;
     border: solid var(--color4);
     background: var(--color5) ;
     border-top-left-radius: 250%;
     border-bottom-right-radius: 450%;
-    width: 100px;
-    height: 30px;
-    align-content: center;
-    justify-content: center;
-    margin-top: 5px;
 }
 
 .add, .subtract, .multiply, .divide{
@@ -79,13 +87,18 @@ button{
     align-content: center;
     justify-content: center;
     font-family: 'Permanent Marker', cursive;
-    color: #faedcb;
+    color: var(--color1);
     font-size: 35px;
 }
 
-.add-calculate{
-
+#add-results, #subtract-results, #multiply-results, #divide-results{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2rem;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: underline var(--color4);
 }
+
 main {
     display: flex;
     flex-direction: column;
