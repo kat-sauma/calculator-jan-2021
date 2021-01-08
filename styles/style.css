@@ -47,6 +47,28 @@ body {
     
 }
 
+input{
+    display: block;
+    border: 60px #d8e2dc;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    
+}
+
+button{
+    border: ;
+}
+
+.add, .subtract, .multiply, .divide{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.add-calculate{
+
+}
 main {
     display: flex;
     flex-direction: column;

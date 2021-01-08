@@ -15,3 +15,13 @@ export function getProduct(firstNumber, secondNumber) {
 export function getQuotient(firstNumber, secondNumber) {
     return firstNumber / secondNumber;
 }
+
+
+// tests //
+export function getDiff(thingOne, thingTwo) {
+    return thingOne - thingTwo;
+}
+
+export function getAdd(thingOne, thingTwo) {
+    return thingOne + thingTwo;
+}
